@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+.header {
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: auto;
+}
+
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+}
+
+.barras {
+    color: #fff;
+    padding: 8px;
+    margin-right: 16px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.header-center {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+}
+
+.header-center input {
+    width: 50%;
+    height: 30px;
+    background-color: #202020;
+    border: 1px solid #202020;
+    padding-left: 10px;
+}
+
+.header-center input:focus{
+    outline: none;
+    border: 1px solid blue;
+}
+
+.barra-busqueda {
+    margin-left: 20px;
+    width: 30%;
+}
+
+.header-center i {
+    color: #fff;
+    padding-left: 30px;
+}
+
+.header-center .search {
+    color:#707070;
+    padding-right: 20px;
+}
+
+.header-final {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+.header-final i {
+    color: #fff;
+    padding-right: 40px;
+}
+
+.filters {
+    background-color: #202020;
+    border-top: 1px solid #484646;
+    border-bottom: 1px solid #484646;
+    display: flex;
+    padding: 10px;
+    color: #fff;
+}
+
+.filters div {
+    background: #373737;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.filters div.active {
+    background: #fff;
+    color: #000;
+}
+
+.filters div:hover {
+    background: #4d4d4d;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #181818;
+    padding-top: 15px;
+}
+
+.container > div {
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.container > div img {
+    width: 80%;
+}
+
+.container > div p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.container .video-info {
+    display: flex;
+    width: 90%;
+}
+
+.container .video-info .photos {
+    display: flex;
+} 
+
+.container .video-info .avatar {
+    width: 100%;
+}
+
+.container .video-info .avatar img {
+    border-radius: 50%;
+}
+
+.container .video-info .info {
+    padding-bottom: 10px;
+}
+
+.container .video-info .channel p {
+    color: #AAAAAA;
+    font-size: 13px;
+}
+
+.distinto {
+    width: 80%;
+}
+
+div h1 {
+    background: #181818;
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
